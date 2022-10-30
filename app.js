@@ -3,7 +3,7 @@ const app=express();
 const cors=require("cors");
 const vehicleRoutes=require("./routes/VehicleRoutes");
 const corsOptions ={
-    origin:'http://localhost:1234', 
+    origin:'https://razocab.vercel.app', 
     credentials:true,          
     optionSuccessStatus:200
 }
